@@ -21,3 +21,16 @@ let myNumber = 9;
 // 6.Call the “min” function inside of the “Math” object on both “myNumber” and “pi” - what is the result? Why?
 
 console.log(Math.min(myNumber, pi)); // 3.14 because the Math.min statement pulls the lowest number from the numbers provided.
+
+//Practice
+
+const myEquation1 = 9 * 3 + 24; // 51
+
+const myEquation2 = 24 - 12 * 2 + 15; // 39
+
+console.log(Math.max(myEquation1, myEquation2, 52, 73, 13)); // 73
+
+console.log(myEquation1 - myEquation2); // 36
+
+console.log(myEquation1 + myEquation1 - myEquation2 * myEquation1); // -663
+
